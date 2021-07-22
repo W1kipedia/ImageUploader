@@ -3,5 +3,11 @@
   "version": "1.0.0",
   "author": "W1kipedia <jrizzo2007@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  }
 }
