@@ -16,7 +16,7 @@ app.post('/upload', (req, res) => {
 	const buff = Buffer.from(rawData, 'base64');
 	const path = join(__dirname, '..', 'images', `${new Date()}.jpg`)
 
-	writeFile(path, buff, {encoding: 'binary'})
+	writeFile(path, buff)
 	.then(() => {
 		res.status(200);
 		res.send();
