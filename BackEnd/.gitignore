@@ -1,2 +1,4 @@
 images
 dist
+yarn.lock
+node_modules
