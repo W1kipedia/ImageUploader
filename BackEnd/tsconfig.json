@@ -6,6 +6,7 @@
       "es2020"
     ],
     "skipLibCheck": true,
+    "watch": true,
     "outDir": "./dist",
     "moduleResolution": "node",
     "removeComments": true,
